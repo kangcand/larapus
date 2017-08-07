@@ -21,7 +21,7 @@
                             {!! Form::email('email', isset($email) ? $email : null, ['class'=>'form-control']) !!}
                             {!! $errors->first('email', '<p class="help-block">:message</p>') !!}
                             </div>
-                        </div>Hari 3 : Persiapan Project 59
+                        </div>
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                         {!! Form::label('password', 'Password', ['class'=>'col-md-4 control-label']) !!}
                             <div class="col-md-6">
