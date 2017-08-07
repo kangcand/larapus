@@ -9,7 +9,6 @@ class Book extends Model
     //
     protected $table = 'books';
     protected $fillable = ['title', 'author_id', 'amount'];
-    protected $visible = ['title', 'author_id', 'amount'];
     public $timestamps = true;
 
     public function author()
